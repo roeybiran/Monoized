@@ -1,0 +1,12 @@
+{
+    "identifier": "justsostories.puresolarized",
+    "name": "Pure Solarized",
+    "organization": "Just So Stories",
+    "description": "A faithful implementation of the Solarized theme.",
+    "version": "1.1",
+    "categories": ["themes"],
+    "license": "MIT",
+    "bugs": {
+        "email": "bugs@tylergardner.org"
+    }
+}

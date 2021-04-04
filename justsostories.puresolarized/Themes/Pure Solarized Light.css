@@ -1,0 +1,384 @@
+meta {
+    -theme-display-name: "Pure Solarized Light";
+    -theme-interface-style: light;
+    -theme-vibrancy: none;
+    -theme-accent-color: false;
+}
+
+
+/*
+ * Window styles
+ */
+meta.window {
+    background-color: rgb(253, 246, 227);
+    border-color: rgb(147, 161, 161);
+}
+meta.titlebar {
+    color: rgb(131, 148, 150);
+    background: linear-gradient(rgb(238, 232, 213), rgb(253, 246, 227));
+    border-color: rgb(147, 161, 161);
+}
+meta.titlebar.inactive {
+    color: rgb(147, 161, 161);
+    background-color: rgb(253, 246, 227);
+    border-color: rgb(147, 161, 161);
+}
+
+meta.button {
+    background: linear-gradient(rgb(147, 161, 161), rgb(238, 232, 213));
+    border: linear-gradient(rgb(131, 148, 150), rgb(147, 161, 161));
+    color: rgb(88, 110, 117);
+}
+meta.document.button {
+    background: linear-gradient(rgb(147, 161, 161), rgb(238, 232, 213));
+    border: linear-gradient(rgb(131, 148, 150), rgb(147, 161, 161));
+    color: rgb(88, 110, 117);
+}
+meta.button.highlighted {
+    background: linear-gradient(rgb(238, 232, 213), rgb(147, 161, 161));
+    border-color: rgb(147, 161, 161);
+    color: rgb(101, 123, 131);
+}
+meta.document.button.highlighted {
+    background: linear-gradient(rgb(238, 232, 213), rgb(147, 161, 161));
+    border-color: rgb(147, 161, 161);
+    color: rgb(101, 123, 131);
+}
+meta.button.selected {
+    background-color: rgb(253, 246, 227);
+    border: linear-gradient(rgb(131, 148, 150), rgb(147, 161, 161));
+    color: rgb(7, 54, 66);
+}
+meta.document.button.selected {
+    background-color: rgb(253, 246, 227);
+    border: linear-gradient(rgb(131, 148, 150), rgb(147, 161, 161));
+    color: rgb(7, 54, 66);
+}
+meta.button.highlighted.selected {
+    color: rgb(7, 54, 66);
+}
+meta.document.button.highlighted.selected {
+    color: rgb(7, 54, 66);
+}
+meta.button.disabled {
+    background-color: rgb(253, 246, 227);
+    border-color: rgb(147, 161, 161);
+    color: rgb(147, 161, 161);
+}
+meta.document.button.disabled {
+    background-color: rgb(253, 246, 227);
+    border-color: rgb(147, 161, 161);
+    color: rgb(147, 161, 161);
+}
+
+meta.textfield {
+    background-color: rgb(253, 246, 227);
+    border-color: rgb(147, 161, 161);
+}
+meta.document.textfield {
+    background-color: rgb(253, 246, 227);
+    border-color: rgb(147, 161, 161);
+}
+meta.textfield.highlighted {
+    background-color: rgb(238, 232, 213);
+    border-color: rgb(131, 148, 150);
+}
+meta.document.textfield.highlighted {
+    background-color: rgb(238, 232, 213);
+    border-color: rgb(131, 148, 150);
+}
+
+/*
+ * Document styles
+ */
+meta.document {
+    background-color: rgb(253, 246, 227);
+    border-color: rgb(238, 232, 213);
+}
+
+/* Text */
+meta.text {
+    color: rgb(101, 123, 131);
+}
+meta.text.invisible {
+    color: rgb(147, 161, 161);
+}
+meta.text.selected {
+    background-color: #EEE8D5;
+}
+
+/* Cursor */
+meta.cursor {
+    background-color: rgb(238, 232, 213);
+}
+
+/* Indentation Guides */
+meta.indentguide {
+    border-color: rgb(238, 232, 213);
+}
+
+/* Gutter */
+meta.gutter {
+    color: rgb(147, 161, 161);
+    background-color: rgb(238, 232, 213);
+}
+meta.gutter.selected {
+    background-color: rgb(238, 232, 213);
+    color: rgb(88, 110, 117);
+}
+
+
+/*
+ * Syntax styles
+ */
+
+keyword {
+    color: rgb(38, 139, 210);
+    font-weight: bold;
+}
+comment {
+    color: rgb(88, 110, 117);
+}
+processing {
+    color: rgb(38, 139, 210);
+}
+declaration {
+    color: rgb(38, 139, 210);
+    font-weight: bold;
+}
+bracket {
+    color: rgb(101, 123, 131);
+}
+operator {
+    color: rgb(42, 161, 152);
+}
+invalid {
+    color: rgb(101, 123, 131);
+}
+link {
+    color: rgb(42, 161, 152);
+}
+
+/* Values */
+value.boolean {
+    color: rgb(38, 139, 210);
+    font-weight: bold;
+}
+value.null {
+    color: rgb(38, 139, 210);
+    font-weight: bold;
+}
+value.number {
+    color: rgb(133, 153, 0);
+}
+value.entity {
+    color: rgb(38, 139, 210);
+    font-weight: bold;
+}
+value.symbol {
+    color: rgb(181, 137, 0);
+}
+
+/* Identifiers */
+identifier.type {
+    color: rgb(108, 113, 196);
+}
+identifier.constant {
+    color: rgb(181, 137, 0);
+}
+identifier.global, identifier.variable {
+    color: rgb(101, 123, 131);
+}
+identifier.property {
+    color: rgb(203, 75, 22);
+}
+identifier.decorator {
+    color: rgb(38, 139, 210);
+    font-weight: bold;
+}
+identifier.function,
+identifier.method {
+    color: rgb(42, 161, 152);
+}
+identifier.key {
+    color: rgb(181, 137, 0);
+}
+identifier.argument {
+    color: rgb(101, 123, 131);
+}
+
+/* Strings */
+string {
+    color: rgb(211, 54, 130);
+}
+string.key {
+    color: rgb(211, 54, 130);
+}
+string-template {
+    color: rgb(211, 54, 130);
+}
+string-template.value {
+    color: rgb(101, 123, 131);
+}
+regex {
+    color: rgb(42, 161, 152);
+}
+regex.escaped {
+    color: rgb(42, 161, 152);
+}
+cdata {
+    color: rgb(101, 123, 131);
+}
+
+/* Markup */
+markup.heading {
+    color: rgb(38, 139, 210);
+}
+markup.line {
+    color: rgb(88, 110, 117);
+}
+markup.bold {
+    color: rgb(88, 110, 117);
+    font-weight: bold;
+}
+markup.italic {
+    color: rgb(88, 110, 117);
+    font-style: italic;
+}
+markup.strikethrough {
+    color: rgb(88, 110, 117);
+}
+markup.list.item {
+    color: rgb(101, 123, 131);
+}
+markup.code {
+    background-color: rgb(238, 232, 213);
+}
+markup.link {
+    color: rgb(42, 161, 152);
+}
+
+/* Types */
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name {
+    color: rgb(220, 50, 47);
+}
+
+/* Members */
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+    color: rgb(181, 137, 0);
+}
+
+/* Tags */
+tag {
+    color: rgb(108, 113, 196);
+}
+tag.framework {
+    color: rgb(108, 113, 196);
+}
+tag.attribute.name {
+    color: rgb(181, 137, 0);
+}
+tag.attribute.value {
+    color: rgb(88, 110, 117);
+}
+tag.attribute.value.link {
+    color: rgb(42, 161, 152);
+}
+
+/* Styles */
+style.at {
+    color: rgb(38, 139, 210);
+    font-weight: bold;
+}
+style.selector.element {
+    color: rgb(101, 123, 131);
+    font-weight: bold;
+}
+style.selector.identifier.id {
+    color: rgb(220, 50, 47);
+}
+style.selector.identifier.class {
+    color: rgb(108, 113, 196);
+}
+style.selector.pseudoclass {
+    color: rgb(88, 110, 117);
+}
+style.selector.pseudoelement {
+    color: rgb(88, 110, 117);
+}
+style.attribute.name {
+    color: rgb(203, 75, 22);
+}
+style.value.number {
+    color: rgb(133, 153, 0);
+}
+style.value.color.hex {
+    color: rgb(211, 54, 130);
+}
+style.value.keyword {
+    color: rgb(38, 139, 210);
+    font-weight: bold;
+}
+style.value.color.named {
+    color: rgb(211, 54, 130);
+}
+style.value.identifier.function {
+    color: rgb(42, 161, 152);
+}
+
+/* Terminal */
+terminal.black {
+    color: rgb(7, 54, 66);
+}
+terminal.red {
+    color: rgb(220, 50, 47);
+}
+terminal.green {
+    color: rgb(133, 153, 0);
+}
+terminal.yellow {
+    color: rgb(181, 137, 0);
+}
+terminal.blue {
+    color: rgb(38, 139, 210);
+}
+terminal.magenta {
+    color: rgb(211, 54, 130);
+}
+terminal.cyan {
+    color: rgb(42, 161, 152);
+}
+terminal.white {
+    color: rgb(238, 232, 213);
+}
+terminal.bright-black {
+    color: rgb(0, 43, 54);
+}
+terminal.bright-red {
+    color: rgb(203, 75, 22);
+}
+terminal.bright-green {
+    color: rgb(88, 110, 117);
+}
+terminal.bright-yellow {
+    color: rgb(101, 123, 131);
+}
+terminal.bright-blue {
+    color: rgb(131, 148, 150);
+}
+terminal.bright-magenta {
+    color: rgb(108, 113, 196);
+}
+terminal.bright-cyan {
+    color: rgb(147, 161, 161);
+}
+terminal.bright-white {
+    color: rgb(253, 246, 227);
+}
