@@ -156,6 +156,7 @@ export default function vscode(shouldInstall) {
 
       const contents = {
         ...solarizedData,
+        type: lightness,
         tokenColors: transformedColors,
         name,
       };
