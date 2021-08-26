@@ -1,11 +1,10 @@
 # Monoized
 
+![Monoized](img.jpg)
+
 A theme based on [Solarized](https://ethanschoonover.com/solarized/#the-values), but with [Monokai](https://monokai.nl)'s token colors.
 
 Currently for macOS and VS Code only.
-
-![Monoized Light](ss1.jpg)
-![Monoized Dark](ss2.jpg)
 
 ## Getting Started
 
