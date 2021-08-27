@@ -2,7 +2,7 @@
 
 ![Monoized](img.jpg)
 
-A theme based on [Solarized](https://ethanschoonover.com/solarized), but with [Monokai](https://monokai.nl)'s token colors.
+A theme based on [Solarized](https://ethanschoonover.com/solarized), but with [Monokai](https://monokai.nl)'s token colors and some additional tweaks.
 
 Currently for macOS and VS Code only.
 
