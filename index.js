@@ -1,5 +1,8 @@
 import vscode from "./vscode/index.js";
 
-if (process.argv.includes("vscode")) {
-  vscode(process.argv.includes("install"));
+const args = process.argv.slice(2);
+if (args.includes("--app=vscode")) {
+  vscode(args.includes("--install"));
 }
+
+// vscode(true);
