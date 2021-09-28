@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "A theme based on Solarized but with Monokai’s token colors.",
   "scripts": {
-    "build:vscode": "node ./vscode/index.js"
+    "build:vscode": "node ./visual-studio-code/index.js"
   },
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"

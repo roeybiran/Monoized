@@ -4,17 +4,23 @@
 
 A theme based on [Solarized](https://ethanschoonover.com/solarized), but with [Monokai](https://monokai.nl)'s token colors and some additional tweaks.
 
-Currently for macOS and VS Code only.
+## Notes
+
+UI colors are copied from Solarized and preserved.
+
+Syntax highlighting colors (`tokenColors`) are taken from Monokai and each Monokai-specific color is replaced with its Solarized counterpart.
+
+## Supported Editors
+
+- Visual Studio Code
 
 ## Getting Started
 
-1. Make sure you have the following installed:
-   - Node.js.
-   - VS Code installed in /Applications, with the Monokai, Solarized Light and Solarized Dark default themes available.
-2. Clone this repo.
-3. Run `npm run build -- --app=vscode` inside the repo's root.
-4. Copy the folders inside **./build/vscode** to **~/.vscode/extensions** (alternatively, specify `--install` as an additional argument and this step will be done for you).
-5. Reload VS Code.
+1. Clone this repo.
+2. Inside the repo, run `npm i`.
+3. Run one of the `build:foo` scripts, where `foo` is one of the supported editors.
+4. Copy the folders inside **./build/foo** (where **foo** is the editor's name) to the respective editor’s extensions folder (for example, for VS Code on macOS, it’s **~/.vscode/extensions**).
+5. Restart/reload the editor.
 
 ## TODO
 

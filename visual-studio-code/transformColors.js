@@ -1,8 +1,7 @@
-export default function transformColors({
+export default function transformColors(
   monokaiTokens,
   colorMap,
-  lightness,
-}) {
+  lightness) {
   return monokaiTokens.map((token) => {
     const color = token.settings.foreground?.toLowerCase();
     if (color in colorMap) {
