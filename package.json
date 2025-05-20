@@ -2,7 +2,11 @@
   "name": "monoized",
   "repository": "github:roeybiran/monoized",
   "version": "1.0.0",
-  "description": "A theme based on Solarized but with Monokai’s token colors.",
+  "description": "A theme based on Solarized but with Monokai's token colors.",
+  "type": "module",
+  "bin": {
+    "monoized": "./cli.js"
+  },
   "scripts": {
     "build:vscode": "node ./visual-studio-code/index.js"
   },
@@ -12,8 +16,10 @@
   "author": "Roey Biran",
   "publisher": "roeybiran",
   "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0"
+  },
   "devDependencies": {
     "eslint": "^7.32.0"
-  },
-  "type": "module"
+  }
 }
